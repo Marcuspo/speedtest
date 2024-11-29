@@ -9,48 +9,34 @@
 function I(i){return document.getElementById(i);}
 
 //LIST OF TEST SERVERS. See documentation for details if needed
-var SPEEDTEST_SERVERS=[
-  {
-    "name": "Example server 1 (HTTP and HTTPS)",
-    "server": "//example1.mydomain.com/",
-    "dlURL": "garbage.php",
-    "ulURL": "empty.php",
-    "pingURL": "empty.php",
-    "getIpURL": "getIP.php"
-  },
-  {
-    "name": "Example server 2 (HTTPS only)",
-    "server": "https://example2.mydomain.com/",
-    "dlURL": "garbage.php",
-    "ulURL": "empty.php",
-    "pingURL": "empty.php",
-    "getIpURL": "getIP.php"
-  },
-  {
-    "name": "Servidor de Teste - Rio de Janeiro (Teste de Velocidade)",
-    "server": "http://speedtest.telecominfraprovider.com.br/",
-    "dlURL": "garbage.php",
-    "ulURL": "empty.php",
-    "pingURL": "empty.php",
-    "getIpURL": "getIP.php"
-  },
-  {
-    "name": "Servidor de Teste - São Paulo (Speedtest.net)",
-    "server": "https://sp1.speedtest.net/",
-    "dlURL": "garbage.php",
-    "ulURL": "empty.php",
-    "pingURL": "empty.php",
-    "getIpURL": "getIP.php"
-  },
-  {
-    "name": "Servidor de Teste - Brasília (Speakeasy)",
-    "server": "https://www.speakeasy.net/speedtest/",
-    "dlURL": "garbage.php",
-    "ulURL": "empty.php",
-    "pingURL": "empty.php",
-    "getIpURL": "getIP.php"
-  }
+var SPEEDTEST_SERVERS= 
+[
+    {
+        "name": "M-Lab São Paulo",
+        "server": "https://speed.measurementlab.net/#",
+        "dlURL": "/ndt/v7/download",
+        "ulURL": "/ndt/v7/upload",
+        "pingURL": "/ndt/v7/ping",
+        "getIpURL": "/ndt/v7/getIP"
+    },
+    {
+        "name": "M-Lab Rio de Janeiro",
+        "server": "https://mlab1.rio01.measurement-lab.org/#",
+        "dlURL": "/ndt/v7/download",
+        "ulURL": "/ndt/v7/upload",
+        "pingURL": "/ndt/v7/ping",
+        "getIpURL": "/ndt/v7/getIP"
+    },
+    {
+        "name": "M-Lab Curitiba",
+        "server": "https://mlab1.ctba01.measurement-lab.org/#",
+        "dlURL": "/ndt/v7/download",
+        "ulURL": "/ndt/v7/upload",
+        "pingURL": "/ndt/v7/ping",
+        "getIpURL": "/ndt/v7/getIP"
+    }
 ]
+
 
 
 //INITIALIZE SPEEDTEST

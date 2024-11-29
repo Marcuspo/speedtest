@@ -18,25 +18,25 @@
   {
     "name": "Servidor de Teste - Rio de Janeiro (Teste de Velocidade)",
     "server": "http://speedtest.telecominfraprovider.com.br/",
-    "dlURL": "download.php",
-    "ulURL": "upload.php",
-    "pingURL": "ping.php",
+    "dlURL": "garbage.php",
+    "ulURL": "empty.php",
+    "pingURL": "empty.php",
     "getIpURL": "getIP.php"
   },
   {
     "name": "Servidor de Teste - São Paulo (Speedtest.net)",
     "server": "https://sp1.speedtest.net/",
-    "dlURL": "download.php",
-    "ulURL": "upload.php",
-    "pingURL": "ping.php",
+    "dlURL": "garbage.php",
+    "ulURL": "empty.php",
+    "pingURL": "empty.php",
     "getIpURL": "getIP.php"
   },
   {
     "name": "Servidor de Teste - Brasília (Speakeasy)",
     "server": "https://www.speakeasy.net/speedtest/",
-    "dlURL": "download.php",
-    "ulURL": "upload.php",
-    "pingURL": "ping.php",
+    "dlURL": "garbage.php",
+    "ulURL": "empty.php",
+    "pingURL": "empty.php",
     "getIpURL": "getIP.php"
   }
 ]
